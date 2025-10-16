@@ -55,7 +55,7 @@ export function WhoWeAre() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage1.0c08b378.jpg&w=750&q=750"
+                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage1.0c08b378.jpg&w=750&q=75"
                   alt="Manufacturing facility"
                   width={300}
                   height={250}
