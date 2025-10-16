@@ -73,7 +73,7 @@ function getDefaultSettings() {
     contactSettings: {
       companyName: "Winner Machineries",
       email: "info@winnermachineries.com",
-      phone: "+1 (555) 123-4567",
+      phone: "+8801818-261224",
       address: "123 Industrial Blvd",
       city: "Manufacturing City",
       state: "CA",

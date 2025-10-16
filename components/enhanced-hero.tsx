@@ -34,19 +34,12 @@ function generateRandomBubbles(count: number) {
 export function EnhancedHero() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [counters, setCounters] = useState({ years: 0, clients: 0, countries: 0, projects: 0 })
+  const [counters, setCounters] = useState({ years: 12, clients: 85, countries: 3, projects: 560 })
   const [bubbles, setBubbles] = useState<any[]>([])
 
   const { data: heroImages, loading, error } = useApi<HeroImage[]>('/api/hero-images')
 
   const slides = [
-    {
-      title: "Precision Engineering Excellence",
-      subtitle: "Advanced CNC Solutions",
-      description:
-        "Revolutionary 5-axis CNC machines delivering unmatched precision for aerospace and automotive industries",
-      gradient: "from-blue-600 via-purple-600 to-orange-600",
-    },
     {
       title: "Industrial Automation Leaders",
       subtitle: "Smart Manufacturing",
@@ -68,38 +61,7 @@ export function EnhancedHero() {
         alt: img.image.alt || img.title,
         title: img.title,
       }))
-    : [
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "State-of-the-art CNC Manufacturing Facility",
-          title: "Advanced CNC Manufacturing",
-        },
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "Precision Industrial Lathe in Operation",
-          title: "Precision Machining Excellence",
-        },
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "Robotic Welding System at Work",
-          title: "Automated Welding Solutions",
-        },
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "Quality Control and Testing Lab",
-          title: "Quality Assurance Testing",
-        },
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "Modern Industrial Assembly Line",
-          title: "Smart Manufacturing Line",
-        },
-        {
-          src: "/placeholder.svg?height=800&width=1200",
-          alt: "Hydraulic Press System",
-          title: "Heavy-Duty Press Operations",
-        },
-      ]
+    : [ ]
 
   // Auto-slide functionality for content
   useEffect(() => {
@@ -185,7 +147,7 @@ export function EnhancedHero() {
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
       {/* Animated Background */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-orange-600/20 animate-pulse" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-orange-600/20 animate-pulse" /> */}
         <div className="absolute top-0 left-0 w-full h-full">
           {bubbles.map((bubble, i) => (
             <div
@@ -210,9 +172,6 @@ export function EnhancedHero() {
           {/* Left Content */}
           <div className="space-y-8 text-white">
             <div className="space-y-6">
-              <Badge className="bg-gradient-to-r from-orange-500 to-red-500 text-white border-0 px-4 py-2 text-sm font-medium">
-                🏆 Industry Leading Solutions Since 1999
-              </Badge>
 
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
@@ -224,26 +183,6 @@ export function EnhancedHero() {
                 <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">{slides[currentSlide].description}</p>
               </div>
             </div>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white border-0 px-8 py-4 text-lg font-semibold shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 hover:scale-105"
-              >
-                Explore Solutions
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 bg-transparent"
-              >
-                <Play className="mr-2 h-5 w-5" />
-                Watch Demo
-              </Button>
-            </div>
-
             {/* Stats Counter */}
             <div id="hero-stats" className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
               <div className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">

@@ -69,7 +69,7 @@ const siteSettingsSchema = new Schema({
 const contactSettingsSchema = new Schema({
   companyName: { type: String, default: "Winner Machineries" },
   email: { type: String, default: "info@winnermachineries.com" },
-  phone: { type: String, default: "+1 (555) 123-4567" },
+  phone: { type: String, default: "+8801818-261224" },
   address: { type: String, default: "123 Industrial Blvd" },
   city: { type: String, default: "Manufacturing City" },
   state: { type: String, default: "CA" },

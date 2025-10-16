@@ -182,7 +182,7 @@ export function ProductDetails({ productId, onBack }: ProductDetailsProps) {
                   <GetQuoteModal trigger={<Button size="lg" variant="outline" className="flex-1 bg-transparent"><Mail className="h-4 w-4 mr-2" />Request Quote</Button>} />
                 </div>
                 <div className="text-sm text-gray-500">
-                  <p>📞 Sales: +1 (555) 123-4567</p>
+                  <p>📞 Sales: +8801818-261224</p>
                   <p>✉️ Email: sales@winnermachineries.com</p>
                 </div>
               </div>
@@ -198,11 +198,11 @@ export function ProductDetails({ productId, onBack }: ProductDetailsProps) {
               <div className="space-y-3 text-sm">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4 text-orange-600" />
-                  <span>Technical Support: +1 (555) 123-4568</span>
+                  <span>Technical Support: +8801818-261224</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4 text-orange-600" />
-                  <span>support@winnermachineries.com</span>
+                  <span>winnermachineries@gmail.com</span>
                 </div>
               </div>
             </CardContent>

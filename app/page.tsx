@@ -112,7 +112,7 @@ export default function HomePage() {
                 <div className="hidden md:flex items-center space-x-4">
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Phone className="h-4 w-4" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+8801818-261224</span>
                   </div>
                   <GetQuoteModal />
                 </div>
@@ -194,7 +194,7 @@ export default function HomePage() {
                     <span className="ml-2 text-xl font-bold text-primary">Winner Machineries</span>
                   </div>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Leading provider of industrial machinery and equipment solutions with over 25 years of excellence in
+                    Leading provider of industrial machinery and equipment solutions with over 12 years of excellence in
                     precision engineering and manufacturing innovation.
                   </p>
                   <div className="flex space-x-4">
