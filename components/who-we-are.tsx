@@ -17,17 +17,24 @@ export function WhoWeAre() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div>
-              <Badge className="mb-4 bg-blue-600">About Winner Machineries</Badge>
+              <Badge className="mb-4 bg-blue-600 text-white">About Winner Machineries</Badge>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Who We Are</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Winner Machineries has been at the forefront of industrial innovation for over two decades. We
-                specialize in providing cutting-edge machinery solutions that drive efficiency, productivity, and growth
-                for businesses across various industries.
+                At Winner Machineries, we are dedicated to providing cutting-edge machinery designed to meet the diverse needs of industries.
               </p>
               <p className="text-gray-600 mb-6">
-                Our commitment to excellence, combined with our deep understanding of industrial needs, has made us a
-                trusted partner for companies worldwide. From small-scale operations to large manufacturing facilities,
-                we deliver solutions that exceed expectations.
+               <h3 className="py-3">Our Vision</h3>
+               We envision a future where businesses across all industries thrive with the power of reliable, <br/>
+                efficient, and innovative machinery. Our commitment to excellence drives us to continuously enhance the 
+                <br/>
+                design, performance, and sustainability of our products.
+
+                <br/>
+
+                 <h3 className="py-3">Our Mission</h3>
+                  Our mission is to provide the best machinery solutions that empower businesses, enhance productivity, <br/>
+                  and ensure safety. Through constant research, development, and a customer-centric approach, we aim to be <br/>
+                  the top choice for industrial machinery worldwide.
               </p>
             </div>
 
@@ -48,34 +55,34 @@ export function WhoWeAre() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src="/placeholder.svg?height=250&width=300"
+                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage1.0c08b378.jpg&w=750&q=750"
                   alt="Manufacturing facility"
                   width={300}
                   height={250}
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage2.31876315.jpg&w=750&q=75"
                   alt="Quality control"
                   width={300}
                   height={200}
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage3.f35b9e9c.jpg&w=750&q=75"
                   alt="Engineering team"
                   width={300}
                   height={200}
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
                 <Image
-                  src="/placeholder.svg?height=250&width=300"
+                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage4.d7c94bf6.jpg&w=750&q=75"
                   alt="Modern machinery"
                   width={300}
                   height={250}
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
             </div>

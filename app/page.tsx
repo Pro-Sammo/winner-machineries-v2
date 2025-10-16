@@ -137,7 +137,7 @@ export default function HomePage() {
           </div>
 
           {/* Testimonials Section */}
-          <TestimonialsSection />
+          {/* <TestimonialsSection /> */}
 
           {/* Who We Are Section */}
           <div id="about">
@@ -258,7 +258,7 @@ export default function HomePage() {
                 </div>
 
                 {/* Products */}
-                <div>
+                {/* <div>
                   <h3 className="font-semibold text-lg mb-6 text-white">Products</h3>
                   <ul className="space-y-3 text-sm">
                     <li>
@@ -302,7 +302,7 @@ export default function HomePage() {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 {/* Contact Info */}
                 <div>
@@ -311,27 +311,29 @@ export default function HomePage() {
                     <div className="flex items-start space-x-3">
                       <MapPin className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">
-                        123 Industrial Avenue
+                        Shop no. 104. Misco Super
                         <br />
-                        Manufacturing District
+                        Market, 4 Darussalam
                         <br />
-                        New York, NY 10001
+                        Road,Mirpur-1 , Dhaka-1216,
+                       <br/>
+                        Bangladesh
                       </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
-                      <span className="text-gray-300">+1 (555) 123-4567</span>
+                      <span className="text-gray-300">+8801818-261224</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Mail className="h-5 w-5 text-orange-400 flex-shrink-0" />
-                      <span className="text-gray-300">info@winnermachineries.com</span>
+                      <span className="text-gray-300">winnermachineries@gmail.com</span>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="border-t border-white/20 mt-12 pt-8 text-center text-sm text-gray-400">
-                <p>&copy; 2024 Winner Machineries. All rights reserved. | Privacy Policy | Terms of Service</p>
+                <p>&copy; {new Date().getFullYear()} Winner Machineries. All rights reserved. | Privacy Policy | Terms of Service</p>
               </div>
             </div>
           </footer>

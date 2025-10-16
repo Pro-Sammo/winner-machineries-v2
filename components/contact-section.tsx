@@ -55,13 +55,13 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  123 Industrial Avenue
+                  Shop no. 104. Misco Super
                   <br />
-                  Manufacturing District
+                  Market, 4 Darussalam
                   <br />
-                  New York, NY 10001
+                  Road,Mirpur-1 , Dhaka-1216,
                   <br />
-                  United States
+                  Bangladesh
                 </p>
               </CardContent>
             </Card>
@@ -75,11 +75,10 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Sales: +1 (555) 123-4567
+                  Phone 1: +8801818-261224
                   <br />
-                  Support: +1 (555) 123-4568
+                  Phone 2: +8801919-361224
                   <br />
-                  Emergency: +1 (555) 123-4569
                 </p>
               </CardContent>
             </Card>
@@ -93,31 +92,7 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Sales: sales@winnermachineries.com
-                  <br />
-                  Support: support@winnermachineries.com
-                  <br />
-                  General: info@winnermachineries.com
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center text-lg">
-                  <Clock className="h-5 w-5 mr-2 text-orange-600" />
-                  Business Hours
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Monday - Friday: 8:00 AM - 6:00 PM
-                  <br />
-                  Saturday: 9:00 AM - 4:00 PM
-                  <br />
-                  Sunday: Closed
-                  <br />
-                  Emergency Support: 24/7
+                  Email: winnermachineries@gmail.com
                 </p>
               </CardContent>
             </Card>
