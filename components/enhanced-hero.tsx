@@ -286,12 +286,12 @@ export function EnhancedHero() {
               </div>
 
               {/* Floating Elements */}
-              <div className="absolute -top-4 -right-4 bg-gradient-to-r from-orange-500 to-red-500 text-white p-4 rounded-2xl shadow-2xl animate-bounce">
+              {/* <div className="absolute -top-4 -right-4 bg-gradient-to-r from-orange-500 to-red-500 text-white p-4 rounded-2xl shadow-2xl animate-bounce">
                 <Award className="h-8 w-8" />
               </div>
               <div className="absolute -bottom-4 -left-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 rounded-2xl shadow-2xl animate-pulse">
                 <Zap className="h-8 w-8" />
-              </div>
+              </div> */}
 
               {/* Progress Ring */}
               <div className="absolute top-4 left-4">
