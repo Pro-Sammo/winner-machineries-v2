@@ -77,7 +77,7 @@ const contactSettingsSchema = new Schema({
   country: { type: String, default: "United States" },
   businessHours: { type: String, default: "Monday - Friday: 8:00 AM - 6:00 PM" },
   supportEmail: { type: String, default: "support@winnermachineries.com" },
-  salesEmail: { type: String, default: "sales@winnermachineries.com" }
+  salesEmail: { type: String, default: "winnermachineries@gmail.com" }
 })
 
 const socialSettingsSchema = new Schema({

@@ -183,7 +183,7 @@ export function ProductDetails({ productId, onBack }: ProductDetailsProps) {
                 </div>
                 <div className="text-sm text-gray-500">
                   <p>📞 Sales: +8801818-261224</p>
-                  <p>✉️ Email: sales@winnermachineries.com</p>
+                  <p>✉️ Email: winnermachineries@gmail.com</p>
                 </div>
               </div>
             </CardContent>

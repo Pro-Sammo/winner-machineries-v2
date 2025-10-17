@@ -115,7 +115,7 @@ export default function SettingsPage() {
     country: "United States",
     businessHours: "Monday - Friday: 8:00 AM - 6:00 PM",
     supportEmail: "support@winnermachineries.com",
-    salesEmail: "sales@winnermachineries.com"
+    salesEmail: "winnermachineries@gmail.com"
   })
 
   // Social Settings
