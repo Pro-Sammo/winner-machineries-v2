@@ -45,10 +45,12 @@ export async function POST(request: NextRequest) {
   try {
     await dbConnect()
     const data = await request.json()
+    console.log("Data => ", data)
     const product = new Product(data)
     await product.save()
     return NextResponse.json(product, { status: 201 })
   } catch (error) {
+    console.log(error)
     return NextResponse.json({ error: "Failed to create product" }, { status: 500 })
   }
 }
