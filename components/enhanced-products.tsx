@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Star, Eye, Heart, Zap, Shield, Award, ArrowRight } from "lucide-react"
 import Image from "next/image"
 
-const categories = ["All", "CNC Machines", "Lathes", "Presses", "Robotics", "Grinding", "Cutting"]
+const categories = ["All", "Heat Press Machine", "textile conveyor Dryer", "Industrial Washing Machine", "Dryer Machine,Hydro Extractor", "Others Finishing Machine Supplier"]
 
 export function EnhancedProducts({ onViewDetails }: { onViewDetails: (id: string) => void }) {
   const [products, setProducts] = useState<any[]>([])

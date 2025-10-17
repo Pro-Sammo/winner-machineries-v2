@@ -311,13 +311,13 @@ export default function HomePage() {
                     <div className="flex items-start space-x-3">
                       <MapPin className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">
-                        Shop no. 104. Misco Super
-                        <br />
-                        Market, 4 Darussalam
-                        <br />
-                        Road,Mirpur-1 , Dhaka-1216,
-                       <br/>
-                        Bangladesh
+                         97-kha, 1-E,North Bishil
+                          <br />
+                          Beribadh Road
+                          <br />
+                          Launch  Station opposite side
+                          <br />
+                          Mirpur-1, Dhaka - 1216.
                       </span>
                     </div>
                     <div className="flex items-center space-x-3">

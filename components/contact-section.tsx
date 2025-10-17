@@ -55,13 +55,13 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Shop no. 104. Misco Super
+                  97-kha, 1-E,North Bishil
                   <br />
-                  Market, 4 Darussalam
+                  Beribadh Road
                   <br />
-                  Road,Mirpur-1 , Dhaka-1216,
+                  Launch  Station opposite side
                   <br />
-                  Bangladesh
+                  Mirpur-1, Dhaka - 1216.
                 </p>
               </CardContent>
             </Card>
@@ -77,7 +77,7 @@ export function ContactSection() {
                 <p className="text-gray-600">
                   Phone 1: +8801818-261224
                   <br />
-                  Phone 2: +8801919-361224
+                  Phone 2: +8801735-687812
                   <br />
                 </p>
               </CardContent>
