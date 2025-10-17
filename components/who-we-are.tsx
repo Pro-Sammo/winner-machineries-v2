@@ -55,14 +55,14 @@ export function WhoWeAre() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage1.0c08b378.jpg&w=750&q=75"
+                  src="https://winner-ten.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage1.0c08b378.jpg&w=750&q=75"
                   alt="Manufacturing facility"
                   width={300}
                   height={250}
                   className="rounded-lg shadow-lg object-cover"
                 />
                 <Image
-                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage2.31876315.jpg&w=750&q=75"
+                  src="https://winner-ten.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage2.31876315.jpg&w=750&q=75"
                   alt="Quality control"
                   width={300}
                   height={200}
@@ -71,14 +71,14 @@ export function WhoWeAre() {
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage3.f35b9e9c.jpg&w=750&q=75"
+                  src="https://winner-ten.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage3.f35b9e9c.jpg&w=750&q=75"
                   alt="Engineering team"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg object-cover"
                 />
                 <Image
-                  src="https://www.winnermachineries.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage4.d7c94bf6.jpg&w=750&q=75"
+                  src="https://winner-ten.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfbImage4.d7c94bf6.jpg&w=750&q=75"
                   alt="Modern machinery"
                   width={300}
                   height={250}
