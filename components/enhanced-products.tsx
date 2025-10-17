@@ -74,23 +74,28 @@ export function EnhancedProducts({ onViewDetails }: { onViewDetails: (id: string
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {categories.map((category) => (
-            <Button
-              key={category}
-              variant={selectedCategory === category ? "default" : "outline"}
-              size="sm"
-              onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-3 font-medium transition-all duration-300 ${
-                selectedCategory === category
-                  ? "bg-gradient-to-r from-orange-600 to-red-600 text-white shadow-lg hover:shadow-orange-500/25 scale-105"
-                  : "bg-white/80 backdrop-blur-sm border-gray-200 hover:bg-white hover:border-orange-300 hover:scale-105"
-              }`}
-            >
-              {category}
-            </Button>
-          ))}
-        </div>
+              <div className="relative w-full mb-12">
+                <div
+                  className="flex gap-3 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-transparent pb-2 px-4"
+                  style={{ scrollSnapType: "x mandatory" }}
+                >
+                  {categories.map((category) => (
+                    <Button
+                      key={category}
+                      variant={selectedCategory === category ? "default" : "outline"}
+                      size="sm"
+                      onClick={() => setSelectedCategory(category)}
+                      className={`flex-shrink-0 px-6 py-3 font-medium transition-all duration-300 scroll-snap-align-start ${
+                        selectedCategory === category
+                          ? "bg-gradient-to-r from-orange-600 to-red-600 text-white shadow-lg hover:shadow-orange-500/25 scale-105"
+                          : "bg-white/80 backdrop-blur-sm border-gray-200 hover:bg-white hover:border-orange-300 hover:scale-105"
+                      }`}
+                    >
+                      {category}
+                    </Button>
+                  ))}
+                </div>
+              </div>
 
         {/* Products Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

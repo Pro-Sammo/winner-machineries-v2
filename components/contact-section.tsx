@@ -180,7 +180,7 @@ export function ContactSection() {
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Button type="submit" size="lg" className="w-full bg-orange-600 hover:bg-orange-700 text-white">
                     <Send className="h-4 w-4 mr-2" />
                     Send Message
                   </Button>
