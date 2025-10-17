@@ -12,7 +12,6 @@ const ProductSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ["CNC Machines", "Lathes", "Presses", "Robotics", "Grinding", "Cutting"],
   },
   images: [
     {
