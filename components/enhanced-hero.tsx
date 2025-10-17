@@ -40,19 +40,19 @@ export function EnhancedHero() {
   const { data: heroImages, loading, error } = useApi<HeroImage[]>('/api/hero-images')
 
   const slides = [
-    {
-      title: "Industrial Automation Leaders",
-      subtitle: "Smart Manufacturing",
-      description: "Cutting-edge robotic systems and automated solutions transforming modern manufacturing processes",
-      gradient: "from-orange-600 via-red-600 to-pink-600",
-    },
-    {
-      title: "Innovation Meets Reliability",
-      subtitle: "Future-Ready Solutions",
-      description: "Next-generation industrial equipment designed for Industry 4.0 and sustainable manufacturing",
-      gradient: "from-green-600 via-blue-600 to-purple-600",
-    },
-  ]
+  {
+    title: "Premium Textile Finishing Machines",
+    subtitle: "Automation Meets Perfection",
+    description: "Automatic Heat Press Machines, Conveyor Dryers, and Finishing Equipment built for high-quality textile production and efficiency.",
+    gradient: "from-orange-600 via-red-600 to-pink-600",
+  },
+  {
+    title: "Complete Industrial Laundry Solutions",
+    subtitle: "Performance You Can Trust",
+    description: "Explore our range of Industrial Washing Machines, Hydro Extractors, and Dryer Machines engineered for durability and seamless performance.",
+    gradient: "from-green-600 via-blue-600 to-purple-600",
+  },
+];
 
   // Use hero images from API if available, otherwise use fallback
   const carouselImages = heroImages && heroImages.length > 0 
@@ -134,7 +134,7 @@ export function EnhancedHero() {
 
   if (loading) {
     return (
-      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
+      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-700 via-blue-800 to-gray-900 flex items-center justify-center">
         <div className="text-center text-white">
           <Loader2 className="h-12 w-12 animate-spin text-orange-400 mx-auto mb-4" />
           <p className="text-xl">Loading...</p>
@@ -144,7 +144,7 @@ export function EnhancedHero() {
   }
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-700 via-blue-800 to-gray-900">
       {/* Animated Background */}
       <div className="absolute inset-0">
         {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-orange-600/20 animate-pulse" /> */}
