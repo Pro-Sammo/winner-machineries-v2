@@ -34,20 +34,20 @@ function generateRandomBubbles(count: number) {
 export function EnhancedHero() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [counters, setCounters] = useState({ years: 12, clients: 85, countries: 3, projects: 560 })
+  const [counters, setCounters] = useState({ years: 15, clients: 540, projects: 1200 })
   const [bubbles, setBubbles] = useState<any[]>([])
 
   const { data: heroImages, loading, error } = useApi<HeroImage[]>('/api/hero-images')
 
   const slides = [
   {
-    title: "Premium Textile Finishing Machines",
+    title: "Complete Garments and Textile Finishing Machine Solution.",
     subtitle: "Automation Meets Perfection",
     description: "Automatic Heat Press Machines, Conveyor Dryers, and Finishing Equipment built for high-quality textile production and efficiency.",
     gradient: "from-orange-600 via-red-600 to-pink-600",
   },
   {
-    title: "Complete Industrial Laundry Solutions",
+    title: "Complete Industrial Washing Project Solution.",
     subtitle: "Performance You Can Trust",
     description: "Explore our range of Industrial Washing Machines, Hydro Extractors, and Dryer Machines engineered for durability and seamless performance.",
     gradient: "from-green-600 via-blue-600 to-purple-600",
@@ -198,13 +198,6 @@ export function EnhancedHero() {
                 </div>
                 <div className="text-3xl font-bold text-white">{counters.clients}+</div>
                 <div className="text-sm text-gray-300">Happy Clients</div>
-              </div>
-              <div className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
-                <div className="flex items-center justify-center mb-2">
-                  <Globe className="h-6 w-6 text-green-400 mr-2" />
-                </div>
-                <div className="text-3xl font-bold text-white">{counters.countries}+</div>
-                <div className="text-sm text-gray-300">Countries</div>
               </div>
               <div className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
                 <div className="flex items-center justify-center mb-2">
